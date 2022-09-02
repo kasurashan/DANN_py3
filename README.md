@@ -38,6 +38,14 @@ docker build -t pytorch_dann .
 
 - run docker container
 
+
+```bash
+sh ./docker.sh
+
+```
+
+or
+
 ```bash
 docker run -it --runtime=nvidia \
   -u $(id -u):$(id -g) \
