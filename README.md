@@ -3,7 +3,12 @@
 
 #### Environment
 - Pytorch 1.6
-- Python 3.8.5
+- Python 3.8.5   is not compatible with Rtx 3060
+
+so i edit dockerfile (Line 3)
+FROM pytorch/pytorch:1.12.0-cuda11.3-cudnn8-runtime
+
+
 
 #### Network Structure
 
