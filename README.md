@@ -40,7 +40,7 @@ docker build -t pytorch_dann .
 
 
 ```bash
-sh ./docker.sh
+sh ./dockerrun.sh
 
 ```
 
